@@ -1,0 +1,22 @@
+{
+  "name": "Kartu Berita Kustom",
+  "organization": "Developer Contoh",
+  "description": "Visualisasi kartu berita dengan gambar, judul, deskripsi, tanggal, dan tautan.",
+  "logoUrl": "https://<NAMA_PENGGUNA_ANDA>.github.io/<NAMA_REPOSITORI_ANDA>/logo.png",
+  "organizationUrl": "https://github.com/<NAMA_PENGGUNA_ANDA>",
+  "supportUrl": "https://github.com/<NAMA_PENGGUNA_ANDA>/<NAMA_REPOSITORI_ANDA>/issues",
+  "packageUrl": "https://github.com/<NAMA_PENGGUNA_ANDA>/<NAMA_REPOSITORI_ANDA>",
+  "devMode": true,
+  "components": [
+    {
+      "id": "newsCard",
+      "name": "Kartu Berita",
+      "description": "Menampilkan satu item berita dalam format kartu.",
+      "iconUrl": "https://<NAMA_PENGGUNA_ANDA>.github.io/<NAMA_REPOSITORI_ANDA>/icon.png",
+      "resource": {
+        "js": "https://<NAMA_PENGGUNA_ANDA>.github.io/<NAMA_REPOSITORI_ANDA>/main.js",
+        "config": "https://<NAMA_PENGGUNA_ANDA>.github.io/<NAMA_REPOSITORI_ANDA>/config.json"
+      }
+    }
+  ]
+}

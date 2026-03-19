@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "id": "dimensions",
+      "label": "Data Kartu",
+      "type": "DIMENSION",
+      "options": {
+        "min": 5,
+        "max": 5
+      }
+    }
+  ],
+  "style": [
+    {
+      "id": "cardStyle",
+      "label": "Gaya Kartu",
+      "elements": [
+        {
+          "id": "titleFontSize",
+          "label": "Ukuran Font Judul",
+          "type": "FONT_SIZE",
+          "defaultValue": "20px"
+        },
+        {
+          "id": "titleFontColor",
+          "label": "Warna Font Judul",
+          "type": "FONT_COLOR",
+          "defaultValue": "#333333"
+        },
+        {
+          "id": "descFontSize",
+          "label": "Ukuran Font Deskripsi",
+          "type": "FONT_SIZE",
+          "defaultValue": "14px"
+        },
+        {
+          "id": "descFontColor",
+          "label": "Warna Font Deskripsi",
+          "type": "FONT_COLOR",
+          "defaultValue": "#666666"
+        },
+        {
+          "id": "dateFontColor",
+          "label": "Warna Font Tanggal",
+          "type": "FONT_COLOR",
+          "defaultValue": "#888888"
+        },
+        {
+          "id": "cardBorderColor",
+          "label": "Warna Border Kartu",
+          "type": "FONT_COLOR",
+          "defaultValue": "#dddddd"
+        }
+      ]
+    }
+  ]
+}
